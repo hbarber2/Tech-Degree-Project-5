@@ -1,0 +1,67 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+	font-family: 'Avenir Light', sans-serif;
+	font-size: 1em;
+	background-color: #1e3d59;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Avenir';
+	color: #1e3d59;
+	text-align: center;
+	margin-bottom: 25px;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 5px lightgray;
+	text-transform: uppercase;
+}
+
+h2 {
+	text-align: center;
+	display: block;
+	font-size: 1em;
+}
+
+input {
+	border-radius: 3%;
+	display: block;
+	margin: 25px auto;
+	border: 3px #ccc solid;
+	width: 350px;
+	height: 40px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 100%;
+	background-color: #ff6e40;
+
+}
+
+.wrapper {
+	padding: 20px;
+	margin: 0 auto;
+	width: 80%;
+	background-color: #f5f0e1;
+	padding-bottom: 50px;
+	min-height: calc(100vh - 72px);
+}
+
+.container {
+	display: grid;
+	grid-gap: 25px;
+	grid-template-columns: repeat(auto-fill, minmax(200px, max-content));
+	justify-content: center;
+}
+
+.image:hover {
+	transform: scale(1.1);
+	transition-duration: .5s;
+}
+
+
